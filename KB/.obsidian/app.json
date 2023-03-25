@@ -1,0 +1,9 @@
+{
+  "readableLineLength": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./Files"
+}
