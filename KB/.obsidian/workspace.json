@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1811a70101a05427",
+        "id": "2500c74b85eb3ea7",
         "type": "tabs",
         "children": [
           {
-            "id": "c2013acf45502bd1",
+            "id": "31f1819b496cc198",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!/Templater/Debug.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "447b1fd52c319ced",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/TestBlocksNote.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5d2dc4ef064d90b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/Templater/ApplyNoteBlocks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dad75a0d9627e81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/TestBlocksNote.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86603a3f3dbc5695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/TestTemplateNote.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03bda7062b55f30b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/Templates/DailyNoteTemplate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26533c3966ff9c59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/Templates/DailyNoteTemplate.md",
+                "file": "Daily Notes/Days/2023-03-29.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347.5
   },
   "right": {
     "id": "443115eae3391c2b",
@@ -158,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!/Templates/DailyNoteTemplate.md",
+                "file": "Daily Notes/Days/2023-03-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!/Templates/DailyNoteTemplate.md",
+                "file": "Daily Notes/Days/2023-03-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!/Templates/DailyNoteTemplate.md"
+                "file": "Daily Notes/Days/2023-03-29.md"
               }
             }
           },
@@ -220,51 +147,54 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "templater-obsidian:Templater": false,
+      "templates:Insert template": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "26533c3966ff9c59",
+  "active": "31f1819b496cc198",
   "lastOpenFiles": [
-    "!/Templates/DailyNoteTemplateNew.md",
+    "Daily Notes/Days/2023-03-23.md",
+    "Daily Notes/Days/2023-03-29.md",
+    "Daily Notes/Months/2023-03.md",
+    "Daily Notes/Years/2023.md",
+    "!/Meta/Structure/Daily Notes/Months/Monthly Note.md",
+    "Daily Notes/Months/2023-02.md",
+    "!/TestTemplateNote.md",
+    "!/TestBlocksNote.md",
+    "!/Templater/ApplyNoteBlocks.md",
     "!/Templates/DailyNoteTemplate.md",
     "!/Templates/DailyNoteFrontmatter.md",
+    "!/Templates/MonthlyNoteFrontmatter.md",
+    "!/Templates/YearlyNoteFrontmatter.md",
+    "!/Templates/MonthlyNoteTemplate.md",
+    "!/Templates/YearlyNoteTemplate.md",
+    "!/Concept/Правила ведения заметок.md",
+    "!/Concept/Как именовать заметки.md",
+    "!/Concept/Гигиена ежедневных заметок.md",
+    "!/Concept/Где задачи на доработку шаблона заметки.md",
+    "!/Concept/Структура заметок.canvas",
     "Daily Notes/Index.md",
-    "!/TestTemplateNote.md",
-    "Daily Notes/Years",
-    "Daily Notes/Months",
-    "Daily Notes/Days",
-    "Daily Notes",
-    "!/TestBlocksNote.md",
-    "!/Templater/ApplyTemplate.md",
-    "!/Templater/ApplyNoteBlocks.md",
+    "!/Meta/Structure/Daily Notes/Days/Daily Note.md",
+    "!/Concept/Files/Pasted image 20230329224928.png",
+    "!/Concept/Files",
+    "!/Concept/Index.md",
+    "Daily Notes/2023-03-23.md",
     "!/Templater/Debug.md",
-    "!/DailyNoteTemplate.md",
-    "!/DailyNoteFrontmatter.md",
-    "!/Templates/Blocks/TitleNoteBlock.md",
-    "!/Templates/Blocks/StatisticsNoteBlock.md",
-    "!/Templates/Blocks/SimilarNotesNoteBlock.md",
-    "!/Templates/Blocks/InfoYearlyNoteBlock.md",
-    "!/Templates/Blocks/InfoNoteBlock.md",
-    "!/Templates/Blocks/InfoMonthlyNoteBlock.md",
-    "!/Templates/Blocks/InfoDailyNoteBlock.md",
-    "!/Templates/Blocks/HelpNoteBlock.md",
-    "!/Templates/Blocks/HeaderLinksYearlyNoteBlock.md",
-    "!/Templates/Blocks/HeaderLinksMonthlyNoteBlock.md",
-    "!/Templates/Blocks/HeaderLinksDailyNoteBlock.md",
-    "!/Templates/Blocks/FooterLinksNoteBlock.md",
-    "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
-    "!/TitleNoteBlock.md",
-    "!/StatisticsNoteBlock.md",
-    "!/Templates/Blocks",
-    "!/Blocks",
-    "!/untitled folder",
-    "!/Templates",
-    "!/Meta",
-    "!/Scripts/VersionInfo.js"
+    "Meta/Structure/Index.md",
+    "Meta/Structure/Tasks.md",
+    "Meta/Structure/Daily Notes/Days",
+    "Meta/Structure/Daily Notes/Years",
+    "Meta/Structure/Daily Notes/Months",
+    "Meta/Structure/Daily Notes",
+    "Meta/Structure",
+    "Meta",
+    "!/Concept",
+    "Concept/Структура заметок.canvas",
+    "Concept",
+    "Daily Notes/Years"
   ]
 }
