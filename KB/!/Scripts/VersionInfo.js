@@ -71,11 +71,11 @@ class VersionInfo {
 		const verInfo = new VersionInfo(ver);
 		if (this.major > verInfo.major)
 			return 1;
-		else if (this.major < verInfo.major)
+		if (this.major < verInfo.major)
 			return -1;
-		else if (this.minor > verInfo.minor)
+		if (this.minor > verInfo.minor)
 			return 1;
-		else if (this.minor < verInfo.minor)
+		if (this.minor < verInfo.minor)
 			return -1;
 		return 0;
 	}

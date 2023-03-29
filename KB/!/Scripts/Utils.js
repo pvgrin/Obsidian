@@ -34,12 +34,10 @@ class Utils {
 
 	buildNote(tplContent, blocks,blockContentDelimiter) {
 		let content = tplContent;
-		for (let [blockName, block] of blocks) {
-			// ToDo: если блока нет - удалять с меткой - блок не найден
+		for (let [blockName, block] of blocks) { 
 			if (block.includes(blockContentDelimiter))
 				block = block.split(blockContentDelimiter)[1].trim();
 			content = content.replace("{{" + blockName + "}}", block);
-			//console.log(blockName, "\n", content);
 		}
 		return content;
 	}
