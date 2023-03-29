@@ -11,12 +11,8 @@
             "id": "31f1819b496cc198",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/Days/2023-03-29.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/Days/2023-03-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/Days/2023-03-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily Notes/Days/2023-03-29.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,46 +147,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31f1819b496cc198",
+  "active": "5a87616f98ddc139",
   "lastOpenFiles": [
+    "Daily Notes/Years/2023.md",
+    "Daily Notes/Years",
+    "Daily Notes/Months/2023-03.md",
+    "Daily Notes/Months",
     "Daily Notes/Days/2023-03-23.md",
     "Daily Notes/Days/2023-03-29.md",
-    "Daily Notes/Months/2023-03.md",
-    "Daily Notes/Years/2023.md",
-    "!/Meta/Structure/Daily Notes/Months/Monthly Note.md",
-    "Daily Notes/Months/2023-02.md",
-    "!/TestTemplateNote.md",
-    "!/TestBlocksNote.md",
-    "!/Templater/ApplyNoteBlocks.md",
-    "!/Templates/DailyNoteTemplate.md",
-    "!/Templates/DailyNoteFrontmatter.md",
-    "!/Templates/MonthlyNoteFrontmatter.md",
+    "Daily Notes/Days",
+    "!/Templates/YearlyNoteTemplate.md",
     "!/Templates/YearlyNoteFrontmatter.md",
     "!/Templates/MonthlyNoteTemplate.md",
-    "!/Templates/YearlyNoteTemplate.md",
+    "!/Templates/MonthlyNoteFrontmatter.md",
+    "!/Meta/Форматирование.md",
+    "!/Meta/Templates.md",
+    "!/Meta/Tags.md",
+    "!/Meta/Structure/Tasks.md",
+    "!/Meta/Structure/Index.md",
+    "!/Meta/Structure/Daily Notes/Years/Yearly Note.md",
+    "!/Meta/Structure/Daily Notes/Months/Monthly Note.md",
+    "!/Meta/Structure/Daily Notes/Days/Daily Note.md",
+    "!/Meta/Structure/Daily Notes/Years",
+    "!/Meta/Structure/Daily Notes/Tasks.md",
+    "!/Meta/Structure/Daily Notes/Index.md",
+    "!/Meta/Structure/Daily Notes/Months",
+    "!/Meta/Structure/Daily Notes/Days",
+    "!/Meta/Structure/Daily Notes",
+    "!/Concept/Структура заметок.canvas",
     "!/Concept/Правила ведения заметок.md",
     "!/Concept/Как именовать заметки.md",
     "!/Concept/Гигиена ежедневных заметок.md",
     "!/Concept/Где задачи на доработку шаблона заметки.md",
-    "!/Concept/Структура заметок.canvas",
-    "Daily Notes/Index.md",
-    "!/Meta/Structure/Daily Notes/Days/Daily Note.md",
+    "!/Concept/Index.md",
     "!/Concept/Files/Pasted image 20230329224928.png",
     "!/Concept/Files",
-    "!/Concept/Index.md",
-    "Daily Notes/2023-03-23.md",
-    "!/Templater/Debug.md",
-    "Meta/Structure/Index.md",
-    "Meta/Structure/Tasks.md",
+    "Daily Notes/Months/2023-02.md",
+    "!/TestTemplateNote.md",
     "Meta/Structure/Daily Notes/Days",
     "Meta/Structure/Daily Notes/Years",
-    "Meta/Structure/Daily Notes/Months",
-    "Meta/Structure/Daily Notes",
-    "Meta/Structure",
-    "Meta",
-    "!/Concept",
-    "Concept/Структура заметок.canvas",
-    "Concept",
-    "Daily Notes/Years"
+    "Concept/Структура заметок.canvas"
   ]
 }
