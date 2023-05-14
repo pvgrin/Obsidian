@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2500c74b85eb3ea7",
+        "id": "c8cad06855566fd2",
         "type": "tabs",
         "children": [
           {
-            "id": "31f1819b496cc198",
+            "id": "6c1bc1438a013708",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,16 +139,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "templater-obsidian:Templater": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "5a87616f98ddc139",
+  "active": "6c1bc1438a013708",
   "lastOpenFiles": [
+    "Daily Notes/Tasks.md",
+    "!/Templates/Blocks/SimilarNotesNoteBlock.md",
+    "Daily Notes/Days/2023-05-14.md",
+    "!/Templates/DailyNoteFrontmatter.md",
+    "!/Templates/DailyNoteTemplate.md",
+    "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
+    "!/Meta/Structure/Daily Notes/Tasks.md",
     "Daily Notes/Years/2023.md",
     "Daily Notes/Years",
     "Daily Notes/Months/2023-03.md",
@@ -169,7 +176,6 @@
     "!/Meta/Structure/Daily Notes/Months/Monthly Note.md",
     "!/Meta/Structure/Daily Notes/Days/Daily Note.md",
     "!/Meta/Structure/Daily Notes/Years",
-    "!/Meta/Structure/Daily Notes/Tasks.md",
     "!/Meta/Structure/Daily Notes/Index.md",
     "!/Meta/Structure/Daily Notes/Months",
     "!/Meta/Structure/Daily Notes/Days",
@@ -177,13 +183,8 @@
     "!/Concept/Структура заметок.canvas",
     "!/Concept/Правила ведения заметок.md",
     "!/Concept/Как именовать заметки.md",
-    "!/Concept/Гигиена ежедневных заметок.md",
-    "!/Concept/Где задачи на доработку шаблона заметки.md",
-    "!/Concept/Index.md",
     "!/Concept/Files/Pasted image 20230329224928.png",
     "!/Concept/Files",
-    "Daily Notes/Months/2023-02.md",
-    "!/TestTemplateNote.md",
     "Meta/Structure/Daily Notes/Days",
     "Meta/Structure/Daily Notes/Years",
     "Concept/Структура заметок.canvas"
