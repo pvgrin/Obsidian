@@ -5,7 +5,7 @@
 Obsidian settings (.obsidian) are stored in the vault. 
 
 ## Community plugins
-- Caledar
+- Calendar
 - Dataview
 - Editing Toolbar
 - Style Settings
