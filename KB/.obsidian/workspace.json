@@ -11,8 +11,12 @@
             "id": "6c1bc1438a013708",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md"
+              }
             }
           },
           {
@@ -147,14 +155,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6c1bc1438a013708",
+  "active": "5a87616f98ddc139",
   "lastOpenFiles": [
+    "Tasks.md",
+    "Index.md",
     "Daily Notes/Tasks.md",
+    "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
     "!/Templates/Blocks/SimilarNotesNoteBlock.md",
     "Daily Notes/Days/2023-05-14.md",
     "!/Templates/DailyNoteFrontmatter.md",
     "!/Templates/DailyNoteTemplate.md",
-    "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
     "!/Meta/Structure/Daily Notes/Tasks.md",
     "Daily Notes/Years/2023.md",
     "Daily Notes/Years",
@@ -181,8 +191,6 @@
     "!/Meta/Structure/Daily Notes/Days",
     "!/Meta/Structure/Daily Notes",
     "!/Concept/Структура заметок.canvas",
-    "!/Concept/Правила ведения заметок.md",
-    "!/Concept/Как именовать заметки.md",
     "!/Concept/Files/Pasted image 20230329224928.png",
     "!/Concept/Files",
     "Meta/Structure/Daily Notes/Days",
