@@ -9,5 +9,5 @@
 	// second - apply current note blocks
 	await tp.user.ApplyTemplate(tp, tR, false);
 	
-	return "";
+	return;
 %>

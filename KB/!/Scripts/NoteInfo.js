@@ -102,6 +102,8 @@ class NoteInfo {
 			result.frontmatter = "";
 			result.content = this.content;
 		};
+		result.frontmatter = (result.frontmatter) ? result.frontmatter.trim() : "";
+		result.content = (result.content) ? result.content.trim() : "";
 		return result;
 	}
 
@@ -136,8 +138,8 @@ class NoteInfo {
 		// TODO: объединение текущего блока с переданным, 
 		// с устранением дублей в ключах и вставкой значений из переданного блока 
 		// пока просто объединение
-		let fm = this.blocks.frontmatter + "\n" + frontmatter;
-		// TODO: обработать стандартные блоки во frontmatter
+		let fm = (this.blocks.frontmatter) ? this.blocks.frontmatter + "\n" : "";
+		fm += frontmatter;
 		return fm;
 	}
 
@@ -178,10 +180,9 @@ class NoteInfo {
 			pos += this.noteContentDelimiter.length;
 			// копируем все, кроме контента, контент новый
 			cnt = cnt.substring(0, pos) +
-				this.blocks.content +
+				this.blocks.content + "\n" +
 				cnt.substring(fpos);
 		}
-
 		else
 			cnt = this.blocks.content;
 		return this.content = fm + cnt;

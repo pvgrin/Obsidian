@@ -1,5 +1,5 @@
 ---
-Version: "0.7"
+Version: "0.9"
 Description: "Шаблон ежедевной заметки"
 Topics:
   - Метаданные
@@ -10,6 +10,13 @@ Topics:
 #Meta/Type/Template #Meta/Metadata
 
 ## Журнал изменений
+
+### "0.9" 26-05-2023
+- Добавил блок "##" для отделения контента и футера заметки от других разделов. Содержимое не должно схлопываться при скрытии контента предыдущего заголовка 
+- Переработан раздел "Перенесено из вчера"
+
+### "0.8" 15-05-2023
+- Поправлен запрос в блоке "Задачи из предыдущих дней" добавлен фильтр "filename does not include {{Title}} для исключения выборки задач из текущего файла 
 
 ### "0.7" 14-05-2023
 - Удален раздел "Вдолгую - глобальные цели и задачи". Добавлена ссылка для быстрого доступа к таким задачам в блок "FooterLinksDailyNoteBlock" ссылок внизу заметки.
@@ -36,11 +43,11 @@ Topics:
 
 Tags: #Meta/ToDo #Meta/ToHygiene
 
-%% === Note Content === %%
+## %% === Note Content === %%
 ## Задачи
 -  
-### Перенесено из вчера
-- 
+
+### [[Перенесено из вчера]] 
 
 ## Регулярные задачи
 - [ ] Регулярно утром:
@@ -75,12 +82,13 @@ Tags: #Meta/ToDo #Meta/ToHygiene
 >[!INFO]- Задачи из предыдущих дней
 >```tasks
 >path includes Daily Notes/Days
+>filename does not include {{Title}}
 >not done
 >heading does not include Регулярные задачи
 >short mode
 >```
 
-%% === Note Footer === %%
+## %% === Note Footer === %%
 {{SimilarNotesNoteBlock}}
 
 {{FooterLinksDailyNoteBlock}}

@@ -18,8 +18,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4ff99d0b49a79cd1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,6 +73,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2dc3367cd838ca2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -155,8 +174,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a87616f98ddc139",
+  "active": "4ff99d0b49a79cd1",
   "lastOpenFiles": [
+    "!/Test",
+    "!/Templates/SimpleNoteTemplate.md",
+    "!/Templates/SimpleNoteFrontmatter.md",
+    "!/Templater/ApplySimpleNoteTemplate.md",
+    "!/Scripts/InsertNote.js",
+    "!/Meta/Structure/Daily Notes/Tasks.md",
+    "!/Concept/Как правильно обобщать и структурировать для заметок-логов.md",
     "Tasks.md",
     "Index.md",
     "Daily Notes/Tasks.md",
@@ -165,7 +191,6 @@
     "Daily Notes/Days/2023-05-14.md",
     "!/Templates/DailyNoteFrontmatter.md",
     "!/Templates/DailyNoteTemplate.md",
-    "!/Meta/Structure/Daily Notes/Tasks.md",
     "Daily Notes/Years/2023.md",
     "Daily Notes/Years",
     "Daily Notes/Months/2023-03.md",
@@ -181,12 +206,7 @@
     "!/Meta/Templates.md",
     "!/Meta/Tags.md",
     "!/Meta/Structure/Tasks.md",
-    "!/Meta/Structure/Index.md",
-    "!/Meta/Structure/Daily Notes/Years/Yearly Note.md",
-    "!/Meta/Structure/Daily Notes/Months/Monthly Note.md",
-    "!/Meta/Structure/Daily Notes/Days/Daily Note.md",
     "!/Meta/Structure/Daily Notes/Years",
-    "!/Meta/Structure/Daily Notes/Index.md",
     "!/Meta/Structure/Daily Notes/Months",
     "!/Meta/Structure/Daily Notes/Days",
     "!/Meta/Structure/Daily Notes",
@@ -194,7 +214,6 @@
     "!/Concept/Files/Pasted image 20230329224928.png",
     "!/Concept/Files",
     "Meta/Structure/Daily Notes/Days",
-    "Meta/Structure/Daily Notes/Years",
     "Concept/Структура заметок.canvas"
   ]
 }
