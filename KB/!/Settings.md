@@ -33,7 +33,9 @@ DailyRecent:
     Start: "<span style='vertical-align: top; white-space: nowrap;'>"
     End: "</span>"
 ---
+
 #Meta/Metadata 
+
 ###  Verification
 ```dataviewjs
 const page = dv.current();
