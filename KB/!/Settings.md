@@ -1,8 +1,10 @@
 ---
-TestValue: 10
-TestLink: "!/Settings"
-
-dvDateTimeFormat: "yyyy-MM-dd HH:mm"
+Type: Meta/Type/Settings
+Description: "Общие настройки"
+Version: "0.1"
+Tags:
+  - Meta/Metadata
+  - Meta/Infrastructure
 
 Templates:
   Folder: "!/Templates"
@@ -32,18 +34,14 @@ DailyRecent:
   NoteSpan:
     Start: "<span style='vertical-align: top; white-space: nowrap;'>"
     End: "</span>"
+Index:
+  RecentLen: 10
 ---
-
-#Meta/Metadata 
-
+#Meta/Metadata #Meta/Infrastructure #Meta/Type/Settings
 ###  Verification
 ```dataviewjs
 const page = dv.current();
 let result = ""
-
-result += check(page.TestValue != null, "TestValue");
-result += check(page.TestLink != null, "TestLink");
-result += check(page.dvDateTimeFormat != null, "dvDateTimeFormat");
 
 // Templates
 result += 

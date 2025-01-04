@@ -1,4 +1,4 @@
-Tags: #Meta/Infrastructure #Meta/OutdatedTemplate  
+#Meta/Infrastructure #Meta/OutdatedTemplate  
 
 ```dataview
 TABLE WITHOUT ID styleStart + file.link + styleEnd AS "Note", Description, file.ctime as "Created", file.mtime as "Modified" 
@@ -11,9 +11,9 @@ FLATTEN [[Settings]].DailyRecent.NoteSpan.End AS styleEnd
 ```
 
 ```dataview
-CALENDAR file.mtime 
+CALENDAR file.ctime 
 FROM "Daily Notes"
 WHERE typeof(date(file.name)) = "date"
-SORT file.mtime DESC
+SORT file.ctime DESC
 LIMIT [[Settings]].DailyRecent.Length
 ```

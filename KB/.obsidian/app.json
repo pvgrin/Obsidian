@@ -5,5 +5,13 @@
   "trashOption": "local",
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./Files"
+  "attachmentFolderPath": "./Files",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "propertiesInDocument": "source"
 }

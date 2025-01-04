@@ -1,7 +1,7 @@
-#Meta/Metadata #Meta/ToDo 
+#Meta/Metadata #Meta/ToDo #Meta/Infrastructure
 
 # Реестр используемых шаблонов
 >[!warning] Новый шаблон
 > - [ ] Что делать при добавлении нового шаблона!
 
-Таблица реестра
+Реализовать запросом через DataView по атрибутам шаблонов

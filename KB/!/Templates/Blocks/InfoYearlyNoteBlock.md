@@ -1,6 +1,8 @@
 ---
-Version: "0.1"
+Type: Meta/Type/NoteBlock
 Description: "Блок информации об ежегодной заметке"
+Metadata: "[[Note Block]]"
+Version: "0.1"
 Topics:
   - Метаданные
   - Metadata
@@ -8,9 +10,7 @@ Topics:
   - Template Block
   - Yearly Note
 ---
-
-#Meta/Metadata #Meta/Type/NoteBlock
-
+#Meta/Metadata #Meta/Infrastructure
 ## Журнал изменений
 
 ### "0.1" 20-03-2023
@@ -19,7 +19,6 @@ Topics:
 %% === NoteBlock Content === %%
 >[!HINT]- Note Info
 >**Type**:: #Meta/Type/YearlyNote 
->**Metadata**:: [[Yearly Note]] 
 >Template: [[YearlyNoteTemplate]]
 >**Created**: `= [[Settings]].Templates.NoteHeader.CreatedDateFormatter` 
 >**Modified**:  `= [[Settings]].Templates.NoteHeader.ModifiedDateFormatter` 

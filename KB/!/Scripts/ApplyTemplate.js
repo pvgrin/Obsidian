@@ -46,7 +46,8 @@ async function applyTemplate(tp, tR, useTemplate = true) {
 		console.log(">>template: ", template);
 
 		// Check the template's version
-		if (template.version.compare(note.template.version) <= 0){
+		let cmpRes = template.version.compare(note.template.version);
+		if (cmpRes < 0) {
 			utils.notice(
 				`error, template '${fileName}' has a low version ` + 
 				`(version: "${template.version.toString()}").`);
@@ -115,7 +116,9 @@ async function applyTemplate(tp, tR, useTemplate = true) {
 		tplContent = resNote.content;
 		msg = `template '${template.file.basename}' was successfully applied.\n`;
 	}
-	msg += `${blockCount} note blocks was successfully processed.`;
+	msg += (blockCount > 0) ? 
+		`${blockCount} note blocks was successfully processed.` : 
+		`No processing blocks found.`;
 
 	await app.vault.modify(note.file, tplContent);
 	utils.notice(msg);

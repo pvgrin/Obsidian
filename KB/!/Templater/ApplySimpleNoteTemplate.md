@@ -1,8 +1,7 @@
 ---
    Description: "The script applies to the current note the template 'SimpleNoteTemplate': at first, it inserts into begin of active note new frontmatter 'SimpleNoteFrontmatter', and at second applies the new template"
 ---
-
-#Meta/Metadata
+#Meta/Metadata #Meta/Infrastructure
 
 ```
 <%*

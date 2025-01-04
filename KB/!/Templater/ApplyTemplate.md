@@ -1,7 +1,7 @@
 ---
-   Description: "Применяет шаблон, указанный во Frontmatter к текущей заметке. Шаблоны ищется по имени в папке !\Templates"
+  Description: "Применяет шаблон, указанный во Frontmatter к текущей заметке. Шаблоны ищется по имени в папке !\\Templates"
 ---
-#Meta/Metadata
+#Meta/Metadata #Meta/Infrastructure
 ```
 <%*
 	// first - apply the frontmatter template and template blocks

@@ -39,7 +39,7 @@
 		{"type":"text","text":"Корневая папка базы знаний","id":"edada8b0dc4a3f31","x":-520,"y":-563,"width":250,"height":60,"color":"3"},
 		{"type":"text","text":"N:: Index","id":"1d3ab1f0be67151b","x":-795,"y":-159,"width":250,"height":60,"color":"1"},
 		{"type":"text","text":"F::  Books","id":"1bb78e5ec51115ba","x":-839,"y":-319,"width":250,"height":60,"color":"5"},
-		{"type":"text","text":"N:: BookNote","id":"a53492934b6f599b","x":-795,"y":-239,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"N:: BookReviewNote","id":"a53492934b6f599b","x":-795,"y":-239,"width":250,"height":60,"color":"1"},
 		{"type":"text","text":"Корневая папка заметок книжных обзоров","id":"377276d68fac7723","x":-520,"y":-319,"width":250,"height":60,"color":"3"},
 		{"type":"text","text":"Корневая папка ежедневных заметок","id":"d62511740d4bac98","x":-520,"y":-76,"width":250,"height":60,"color":"3"},
 		{"type":"text","text":"Папка ежедневных заметок","id":"dd63e1b623599d78","x":-520,"y":10,"width":250,"height":60,"color":"3"},
@@ -80,13 +80,14 @@
 		{"type":"text","text":"","id":"382e7ecb51009bc1","x":-520,"y":1100,"width":250,"height":60,"color":"3"},
 		{"type":"text","text":"F:: Arch","id":"c299bee0016779f3","x":-796,"y":1180,"width":250,"height":60,"color":"5"},
 		{"type":"text","text":"","id":"97e07e2e7ea5fc3a","x":-520,"y":1180,"width":250,"height":60,"color":"3"},
-		{"type":"text","text":"N:: [[Tech Gloss]]","id":"ae0766a18d0c0e8f","x":-796,"y":1020,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"N:: [[§T]]","id":"ae0766a18d0c0e8f","x":-796,"y":1020,"width":250,"height":60,"color":"1"},
 		{"type":"text","text":"T:: GlossaryTemplate","id":"8e2fa941a6e47f52","x":-200,"y":1020,"width":294,"height":60,"color":"1"},
 		{"type":"text","text":"TB:: [[InfoMonthlyNoteBlock]]","id":"f112bbd579bc84bb","x":506,"y":647,"width":314,"height":59,"color":"4"},
 		{"type":"text","text":"TB:: [[InfoYearlyNoteBlock]]","id":"6289107bc7c4aaff","x":506,"y":740,"width":314,"height":59,"color":"4"},
 		{"type":"text","text":"StdB:: {{NextYearDailyNote}} = \"YYYY\"","id":"5f2774aa8d9a6a3e","x":1020,"y":820,"width":400,"height":61,"color":"4"},
 		{"type":"text","text":"StdB:: {{PrevYearDailyNote}} = \"YYYY\"","id":"c3be219d44dcdf14","x":1020,"y":742,"width":400,"height":50,"color":"4"},
-		{"type":"text","text":"TB:: [[HeaderLinksYearlyNoteBlock]]","id":"a9704c3fef5a5e5d","x":506,"y":822,"width":314,"height":59,"color":"4"}
+		{"type":"text","text":"TB:: [[HeaderLinksYearlyNoteBlock]]","id":"a9704c3fef5a5e5d","x":506,"y":822,"width":314,"height":59,"color":"4"},
+		{"type":"text","text":"T:: BookReviewTemplate","id":"f8f196447f97faa4","x":-240,"y":-239,"width":294,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"69a767e6cce77dde","fromNode":"21bd35c509bfb087","fromSide":"right","toNode":"e3c58409ab284355","toSide":"left"},
@@ -138,6 +139,11 @@
 		{"id":"7eaa8553313453fc","fromNode":"1bdf8976e4143a9a","fromSide":"right","toNode":"bec8a99f60323c76","toSide":"left","color":"4"},
 		{"id":"b28349f51a31a6c5","fromNode":"a9704c3fef5a5e5d","fromSide":"right","toNode":"c3be219d44dcdf14","toSide":"left","color":"4"},
 		{"id":"354984b0e4d1b3f2","fromNode":"a9704c3fef5a5e5d","fromSide":"right","toNode":"5f2774aa8d9a6a3e","toSide":"left","color":"4"},
-		{"id":"b9e0f0fbdd933c87","fromNode":"1bdf8976e4143a9a","fromSide":"right","toNode":"a9704c3fef5a5e5d","toSide":"left","color":"4"}
+		{"id":"b9e0f0fbdd933c87","fromNode":"1bdf8976e4143a9a","fromSide":"right","toNode":"a9704c3fef5a5e5d","toSide":"left","color":"4"},
+		{"id":"f497c58caa6542de","fromNode":"a53492934b6f599b","fromSide":"right","toNode":"f8f196447f97faa4","toSide":"left"},
+		{"id":"628a97fa4428407f","fromNode":"f8f196447f97faa4","fromSide":"right","toNode":"9f2061acc5727c33","toSide":"left","color":"4"},
+		{"id":"97519a9e1f2c12cf","fromNode":"f8f196447f97faa4","fromSide":"right","toNode":"f2fb5919ac53bd43","toSide":"left","color":"4"},
+		{"id":"2274d3f5019650e5","fromNode":"f8f196447f97faa4","fromSide":"right","toNode":"62fb804e682eb33d","toSide":"left","color":"4"},
+		{"id":"22a3fa2a27105956","fromNode":"f8f196447f97faa4","fromSide":"right","toNode":"359246cd6bb04edf","toSide":"left","color":"4"}
 	]
 }

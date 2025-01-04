@@ -213,7 +213,7 @@ class DailyNotesFolderMissingError extends Error {
 }
 /**
  * This function mimics the behavior of the daily-notes plugin
- * so it will replace {{date}}, {{title}}, and {{time}} with the
+ * so it will replace {{date}}, {{TitleNoteBlock}}, and {{time}} with the
  * formatted timestamp.
  *
  * Note: it has an added bonus that it's not 'today' specific.

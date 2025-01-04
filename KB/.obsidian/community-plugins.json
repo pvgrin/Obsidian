@@ -1,9 +1,14 @@
 [
+  "obsidian-tasks-plugin",
+  "calendar",
   "templater-obsidian",
   "dataview",
-  "obsidian-tasks-plugin",
   "tag-wrangler",
-  "calendar",
+  "editing-toolbar",
   "obsidian-style-settings",
-  "editing-toolbar"
+  "buttons",
+  "table-extended",
+  "table-editor-obsidian",
+  "obsidian-icon-folder",
+  "obsidian-excalidraw-plugin"
 ]

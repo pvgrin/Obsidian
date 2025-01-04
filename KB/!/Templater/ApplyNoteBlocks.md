@@ -1,7 +1,7 @@
 ---
-   Description: "Обрабатывает все блоки формата {{BlockName}} в текущей заметке, подставляя контент из !\Templates\Blocks\<BlockName>"  
+   Description: "Обрабатывает все блоки формата {{BlockName}} в текущей заметке, подставляя контент из !\\Templates\\Blocks\\<BlockName>"  
 ---
-#Meta/Metadata
+#Meta/Metadata #Meta/Infrastructure
 ```
 <%*
 	await tp.user.ApplyTemplate(tp, tR, false);

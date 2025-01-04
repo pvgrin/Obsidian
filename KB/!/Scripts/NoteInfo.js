@@ -180,7 +180,7 @@ class NoteInfo {
 			pos += this.noteContentDelimiter.length;
 			// копируем все, кроме контента, контент новый
 			cnt = cnt.substring(0, pos) +
-				this.blocks.content + "\n" +
+				this.blocks.content + // "\n" + - убрал, тк добавлением новый строки можно управлять в контенте
 				cnt.substring(fpos);
 		}
 		else

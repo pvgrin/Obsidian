@@ -7,7 +7,7 @@ Topics:
   - Template
   - Yearly Note
 ---
-#Meta/Type/Template #Meta/Metadata
+#Meta/Type/Template #Meta/Metadata #Meta/Infrastructure
 
 ## Журнал изменений
 
@@ -22,8 +22,6 @@ Topics:
 Tags: #Meta/ToHygiene
 
 %% === Note Content === %%
-
-
 %% === Note Footer === %%
 {{SimilarNotesNoteBlock}}
 

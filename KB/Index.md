@@ -1,11 +1,12 @@
 ---
-IndexLen: 10
+Metadata: [[!/Meta/Structure/Index|Index]]
 ---
-#Meta/Infrastructure #Meta/Type/Index  #Meta/OutdatedTemplate 
+#Meta/MOC #Meta/Infrastructure #Meta/Type/Index  #Meta/OutdatedTemplate 
+## Последние правки в ежедневных заметках
 ```dataview
-TABLE file.ctime as "Created", file.mtime as "Modified" 
+TABLE file.mtime as "Modified", file.etags as Tags, Topics
 FROM "Daily Notes"
-WHERE file.name != "!ndex"
+WHERE file.name != "Index"
 SORT file.mtime DESC
-LIMIT this.IndexLen
+LIMIT [[Settings]].Index.RecentLen
 ```
