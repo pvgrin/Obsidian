@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b157ae128868598",
+        "id": "08d2f687381f7f91",
         "type": "tabs",
         "children": [
           {
-            "id": "bc7e61a64dd8a5ed",
+            "id": "0dc8236b4b87e8e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!/Concept/Index.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "New tab"
             }
           }
         ]
@@ -103,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!/Concept/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index"
+              "title": "Backlinks"
             }
           },
           {
@@ -122,12 +117,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!/Concept/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Index"
+              "title": "Outgoing links"
             }
           },
           {
@@ -148,11 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "!/Concept/Index.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline"
             }
           },
           {
@@ -178,9 +170,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "ab9a4a17cc3c6010",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -189,6 +191,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
@@ -197,15 +200,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a87616f98ddc139",
+  "active": "ab9a4a17cc3c6010",
   "lastOpenFiles": [
     "Work/Projects/Simple Project.md",
+    "Daily Notes/Days/2025-01-04.md",
+    "Daily Notes/Days/2023-05-14.md",
+    "!/Concept/Index.md",
+    "Daily Notes/Years/2023.md",
+    "Daily Notes/Months/2023-03.md",
+    "Daily Notes/Days/2023-03-29.md",
+    "Daily Notes/Days/2023-03-23.md",
+    "!/Meta/Форматирование.md",
+    "!/Concept/Files/Pasted image 20230329224928.png",
     "Work/Note Example.md",
     "Obsidian/Obsidian.md",
     "Obsidian",
     "Daily Notes/Years/2025.md",
     "Daily Notes/Months/2025-01.md",
-    "Daily Notes/Days/2025-01-04.md",
     "!/Templates/TechVideoReviewTemplate.md",
     "!/Templates/StructureNoteTemplate.md",
     "!/Templates/ProjectNoteTemplate.md",
@@ -220,16 +231,8 @@
     "!/Templates/Backup/DailyNoteTemplate v0.12.md",
     "!/Templates/Backup",
     "!/Templates/Backlog Template.md",
-    "!/Templater/ApplyProjectNoteTemplate.md",
-    "!/Meta/Structure/Books/Book.md",
     "!/Meta/Structure/Books",
-    "!/Meta/Structure/!/Simple Note.md",
-    "!/Meta/Structure/!/Project Note.md",
-    "!/Meta/Structure/!/Note Block.md",
     "!/Meta/Structure/!",
-    "!/Meta/Structure.md",
-    "!/Meta/Projects.md",
-    "!/Concept/Files/Pasted image 20230329224928.png",
     "Work",
     "Projects/Untitled",
     "!/Concept/Структура заметок.canvas",
