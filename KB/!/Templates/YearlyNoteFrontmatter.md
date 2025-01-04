@@ -7,4 +7,6 @@ Aliases:
   - {{Title}}
 Topics:
   - 
+Tags:
+  - Meta/MOC
 ---

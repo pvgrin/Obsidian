@@ -9,7 +9,16 @@ class StandardBlockProcessor {
 
 	constructor(tp, tR, note) {
 		this.#note = note;
-		this.#df = tp.user.DateFormatter(tp, tR, null);
+		// Try tp extract date from the note's name in format "YYYY-MM-DD"
+		let nd = null;
+		let nn = this.#note?.file?.basename;
+		if (nn) {
+			let nni = nn.split("-");
+			if (nni && nni.length == 3)
+				nd = new Date(nni[0], nni[1]-1, nni[2]); // index of month (month - 1) 
+		}
+		// For all other notes the current date will be use
+		this.#df = tp.user.DateFormatter(tp, tR, nd);
 	}
 
 	process(blockName) {

@@ -4,33 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c8cad06855566fd2",
+        "id": "1b157ae128868598",
         "type": "tabs",
         "children": [
           {
-            "id": "6c1bc1438a013708",
+            "id": "bc7e61a64dd8a5ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
-                "mode": "source",
+                "file": "!/Concept/Index.md",
+                "mode": "preview",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "4ff99d0b49a79cd1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.4"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -65,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -73,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -81,14 +78,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 220.5
   },
   "right": {
     "id": "443115eae3391c2b",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
+                "file": "!/Concept/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Index"
             }
           },
           {
@@ -121,10 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
+                "file": "!/Concept/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -135,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -144,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!/Templates/Blocks/FooterLinksDailyNoteBlock.md"
-              }
+                "file": "!/Concept/Index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Index"
             }
           },
           {
@@ -153,67 +160,83 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "7a4e3b34691e2405",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4ff99d0b49a79cd1",
+  "active": "5a87616f98ddc139",
   "lastOpenFiles": [
-    "!/Test",
-    "!/Templates/SimpleNoteTemplate.md",
-    "!/Templates/SimpleNoteFrontmatter.md",
-    "!/Templater/ApplySimpleNoteTemplate.md",
-    "!/Scripts/InsertNote.js",
-    "!/Meta/Structure/Daily Notes/Tasks.md",
-    "!/Concept/Как правильно обобщать и структурировать для заметок-логов.md",
-    "Tasks.md",
-    "Index.md",
-    "Daily Notes/Tasks.md",
-    "!/Templates/Blocks/FooterLinksDailyNoteBlock.md",
-    "!/Templates/Blocks/SimilarNotesNoteBlock.md",
-    "Daily Notes/Days/2023-05-14.md",
-    "!/Templates/DailyNoteFrontmatter.md",
-    "!/Templates/DailyNoteTemplate.md",
-    "Daily Notes/Years/2023.md",
-    "Daily Notes/Years",
-    "Daily Notes/Months/2023-03.md",
-    "Daily Notes/Months",
-    "Daily Notes/Days/2023-03-23.md",
-    "Daily Notes/Days/2023-03-29.md",
-    "Daily Notes/Days",
-    "!/Templates/YearlyNoteTemplate.md",
-    "!/Templates/YearlyNoteFrontmatter.md",
-    "!/Templates/MonthlyNoteTemplate.md",
-    "!/Templates/MonthlyNoteFrontmatter.md",
-    "!/Meta/Форматирование.md",
-    "!/Meta/Templates.md",
-    "!/Meta/Tags.md",
-    "!/Meta/Structure/Tasks.md",
-    "!/Meta/Structure/Daily Notes/Years",
-    "!/Meta/Structure/Daily Notes/Months",
-    "!/Meta/Structure/Daily Notes/Days",
-    "!/Meta/Structure/Daily Notes",
-    "!/Concept/Структура заметок.canvas",
+    "Work/Projects/Simple Project.md",
+    "Work/Note Example.md",
+    "Obsidian/Obsidian.md",
+    "Obsidian",
+    "Daily Notes/Years/2025.md",
+    "Daily Notes/Months/2025-01.md",
+    "Daily Notes/Days/2025-01-04.md",
+    "!/Templates/TechVideoReviewTemplate.md",
+    "!/Templates/StructureNoteTemplate.md",
+    "!/Templates/ProjectNoteTemplate.md",
+    "!/Templates/ProjectNoteFrontmatter.md",
+    "!/Templates/DebugTemplate.md",
+    "!/Templates/DailyNoteHelp.md",
+    "!/Templates/BookReviewTemplate.md",
+    "!/Templates/BookNoteTemplate.md",
+    "!/Templates/BookNoteFrontmatter.md",
+    "!/Templates/Blocks/SimilarProjectNotesNoteBlock.md",
+    "!/Templates/Blocks/InfoProjectNoteBlock.md",
+    "!/Templates/Backup/DailyNoteTemplate v0.12.md",
+    "!/Templates/Backup",
+    "!/Templates/Backlog Template.md",
+    "!/Templater/ApplyProjectNoteTemplate.md",
+    "!/Meta/Structure/Books/Book.md",
+    "!/Meta/Structure/Books",
+    "!/Meta/Structure/!/Simple Note.md",
+    "!/Meta/Structure/!/Project Note.md",
+    "!/Meta/Structure/!/Note Block.md",
+    "!/Meta/Structure/!",
+    "!/Meta/Structure.md",
+    "!/Meta/Projects.md",
     "!/Concept/Files/Pasted image 20230329224928.png",
-    "!/Concept/Files",
-    "Meta/Structure/Daily Notes/Days",
+    "Work",
+    "Projects/Untitled",
+    "!/Concept/Структура заметок.canvas",
+    "Work/Projects",
+    "!/Scripts/InsertNote.js",
+    "!/Test",
+    "Daily Notes/Years",
     "Concept/Структура заметок.canvas"
   ]
 }

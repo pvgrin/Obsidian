@@ -1,4 +1,5 @@
 {
+  "format": "YYYY-MM-DD",
   "folder": "Daily Notes/Days",
   "template": "!/Templates/DailyNoteFrontmatter"
 }

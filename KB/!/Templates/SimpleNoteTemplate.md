@@ -6,16 +6,15 @@ Topics:
   - Simple Note Template
   - Template
 ---
-#Meta/Type/Template #Meta/Metadata
+#Meta/Type/Template #Meta/Metadata #Meta/Infrastructure
 
 %% === Template Content === %%
 {{InfoDailyNoteBlock}}
-{{TitleNoteBlock}}
-Tags: #Meta/ToHygiene 
+{{TitleNoteBlock}} 
 
 {{HelpNoteBlock}}
-## %% === Note Content === %%
+
+%% === Note Content === %%
 %% === Note Footer === %%
 {{SimilarNotesNoteBlock}}
 
-{{FooterLinksNoteBlock}}

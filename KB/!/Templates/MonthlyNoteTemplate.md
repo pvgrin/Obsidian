@@ -1,5 +1,5 @@
 ---
-Version: "0.1"
+Version: "0.2"
 Description: "Шаблон ежемесячной заметки"
 Topics:
   - Метаданные
@@ -7,7 +7,7 @@ Topics:
   - Template
   - Monthly Note
 ---
-#Meta/Type/Template #Meta/Metadata
+#Meta/Type/Template #Meta/Metadata #Meta/Infrastructure
 
 ## Журнал изменений
 
@@ -19,9 +19,16 @@ Topics:
 
 {{HeaderLinksMonthlyNoteBlock}}
 
-Tags: #Meta/ToHygiene
-
 %% === Note Content === %%
+## Задачи
+>[!todo] Сделать:
+>```tasks
+>path regex matches /Daily Notes\/Days\/{{Title}}/
+>heading does not include Регулярные задачи
+>not done
+>short mode
+>group by filename
+>```
 
 %% === Note Footer === %%
 {{SimilarNotesNoteBlock}}

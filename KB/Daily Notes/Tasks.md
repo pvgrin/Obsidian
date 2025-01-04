@@ -1,4 +1,7 @@
-Tags: #Meta/Infrastructure #Meta/OutdatedTemplate  
+#Meta/Infrastructure #Meta/OutdatedTemplate  
 
 ## Вдолгую - глобальные цели и задачи
 %%Здесь только временная регистрация, далее должны быть перенесены%%
+
+
+

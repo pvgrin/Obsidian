@@ -11,7 +11,7 @@
   "defaultDateFormat": "yyyy-MM-dd",
   "defaultDateTimeFormat": "yyyy-MM-dd hh:mm",
   "maxRecursiveRenderDepth": 4,
-  "tableIdColumnName": "File",
+  "tableIdColumnName": "Note",
   "tableGroupColumnName": "Group",
   "showResultCount": true,
   "allowHtml": true,

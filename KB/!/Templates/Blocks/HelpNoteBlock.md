@@ -8,7 +8,7 @@ Topics:
   - Template Block
 ---
 
-#Meta/Metadata #Meta/Type/NoteBlock
+#Meta/Metadata #Meta/Type/NoteBlock #Meta/Infrastructure
 
 ## Журнал изменений
 

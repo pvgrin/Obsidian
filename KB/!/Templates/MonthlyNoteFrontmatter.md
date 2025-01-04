@@ -1,10 +1,16 @@
 ---
+Type: Meta/Type/MonthlyNote
+Description: "Ежемесячная заметка за {{date:MM-YYYY}}"
+Metadata: "[[Monthly Note]]"
 Template:
     Name: "MonthlyNoteTemplate"
-    Version: "0.0"
-Description: "Ежемесячная заметка за {{Title}}"
+    Version: "0.1"
 Aliases:
-  - {{Title}}
+  - {{date:MM-YYYY}}
 Topics:
   - 
+Tags:
+  - Meta/ToHygiene
+  - 
 ---
+ 
